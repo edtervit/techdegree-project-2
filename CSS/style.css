@@ -205,7 +205,7 @@ img{
     }
     .about{
         background-color: #fafafa;
-        padding: 1.5em 10em;
+        padding: 1.5em 1em;
 
     }
     .about p{
@@ -225,7 +225,7 @@ img{
     }
   
     .item p{
-        padding:0em 4em;
+        padding:0em 5%;
         font-size: 1.5em;
     }  
 
@@ -243,7 +243,7 @@ img{
         
     }  
     .about_me{
-        padding: 0 15em;
+        padding: 0 1.5em;
 
     }
 
