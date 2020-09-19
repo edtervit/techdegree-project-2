@@ -23,12 +23,19 @@ header{
 }
 
 body{
-    margin-top: 0em;
+    margin:0 0;
     background-color: pink;
     text-align: center;
-   
+    
 
 }
+
+.footer{
+
+    
+
+}
+
 
 h1{
     color: white;
@@ -43,7 +50,7 @@ ul{
 
 nav{
     text-align: center;
-
+    margin: 0 0.5em;
 }
 
 nav li{
@@ -77,7 +84,7 @@ nav a{
     text-align: center;
     background: white;
     padding: 0.5em 0.5em;
-    
+    width: 100%;
 }
 
 img{
