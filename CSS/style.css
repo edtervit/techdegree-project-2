@@ -1,0 +1,85 @@
+/* Font Family */
+
+@font-face{
+    font-family: "Quicksand";
+    src: url(../Fonts/Quicksand-Regular.ttf) format('truetype');
+}
+
+
+*{
+    font-family: "Quicksand", serif;
+    box-sizing: border-box;
+}
+
+a{
+
+    text-decoration:inherit;
+    color: inherit;
+}
+
+li{
+
+   
+}
+
+header{
+
+    text-align: center;
+}
+
+body{
+    margin-top: 0em;
+    background-color: pink;
+    text-align: center;
+
+}
+
+h1{
+    color: white;
+    margin-top: 0%;
+
+}
+
+nav li{
+    
+    display: block;
+    
+    
+}
+
+li{
+    list-style-type: none;
+    
+    
+    
+}
+
+nav a{
+    
+   
+}
+
+.portfolio{
+    
+    background: white;
+    width: 100vw;
+}
+
+img{
+
+    max-width: 300px;
+}
+
+.me{
+    border-radius: 50%;
+    
+}
+
+.about{
+    background-color: pink
+}
+
+.bold{
+
+    font-weight: bold;
+}
