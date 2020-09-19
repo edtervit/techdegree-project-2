@@ -45,11 +45,13 @@ h2{
 ul{
 
     padding:0;
+    margin: 0 0 ;
 }
 
 nav{
     text-align: center;
     margin: 0 0.5em;
+    margin-bottom: 2em;
 }
 
 nav li{
@@ -66,7 +68,8 @@ nav li:hover{
     
     background-color:lightblue;
     color: white;
-    border: 1px white solid;
+    outline: 1px white solid;
+    
 }
 
 li{
@@ -77,14 +80,14 @@ li{
 .portfolio{
     text-align: center;
     background: white;
-    padding: 2em 2em;
+    padding-top:2em;
     width: 100%;
     
 }
 
 img{
 
-    max-width: 300px;
+    max-width: 100%;
 }
 
 .me{
@@ -125,8 +128,7 @@ img{
 }  
 
 .item{
-    padding: 1.5em ;
-    
+    padding: 1.5em 1.5em;
 }
 
 .section{
@@ -163,11 +165,30 @@ img{
     padding: 1em;
 }
 
+.bottom_nav{
+    display: none;
+}
 
+.bottom_title{
+    display: none;
+}
+
+.mobile_nav li{
+    
+    margin: 1em auto;
+    display: inline-block;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 0 2em;
+
+}
 /* Media Queries */
 
 @media (min-width: 768px){
 
+    .item{
+        padding: 1.2em 1.2em;
+    }
     nav li{
 
         display: inline-block;
@@ -180,9 +201,7 @@ img{
         height: 25%;
         border-radius: 50%;
         margin-left: 3em;
-    
-        
-        
+
     }
     .about{
         background-color: #fafafa;
@@ -196,14 +215,88 @@ img{
         padding-right: 5em;
         
     }
+    .porty{
+        margin-bottom: 2em;
+    }
+    .item{
 
+        float: left;
+        width: 50%;
+    }
+  
+    .item p{
+        padding:0em 4em;
+        font-size: 1.5em;
+    }  
+
+    h2{
+        font-size: 2em;
+    }
+    h3{
+        font-size: 1.5em;
+    }
+
+    p{
+        font-size: 1.5em;
+    }
+    .item img{
+        
+    }  
+    .about_me{
+        padding: 0 15em;
+
+    }
+
+    .map{
+
+        max-width: 50%;
+    }
+    .mobile_nav{
+        display: none;
+    }
+    .bottom_nav{
+        display: inline-block;
+        float: right;
+        margin-right: 2.3em;
+        margin-bottom: 5em;
+        font-size: 1.5em;
+        margin-top: 1em;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+    .bottom_nav li{
+        margin-right: 2em;
+        display: inline-block;
+    }
+    .bottom_title{
+        display: inline-block;
+        float: left; 
+        margin-left: 4.2em;
+        margin-bottom: 5em;
+        font-size: 1.5em;
+        margin-top: 1em;
+        
+    }   
+    .intro{
+        padding: 5em;
     
-
+    }  
+    .bug{
+        border: red 1px solid;
+    }
+    .bug2{
+        border: green 1px solid;
+    }
 }
 
-@media (min-width: 1024px){
+@media (min-width: 1025px){
 
+    .item{
 
+        float: left;
+        width: 33%;
+    }
 
 
 }
