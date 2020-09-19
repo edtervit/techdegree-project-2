@@ -95,6 +95,13 @@ img{
 
 }
 
+.me:hover{
+    transition: 0.5s;
+    transform: rotate(360deg);
+    
+
+}
+
 .about{
     background-color: lightblue
 }
