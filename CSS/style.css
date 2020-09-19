@@ -17,34 +17,48 @@ a{
     color: inherit;
 }
 
-li{
-
-   
-}
 
 header{
-
-    text-align: center;
+    
 }
 
 body{
     margin-top: 0em;
     background-color: pink;
     text-align: center;
+   
 
 }
 
 h1{
     color: white;
-    margin-top: 0%;
+    margin-top: 5%;
+
+}
+
+ul{
+
+    padding:0;
+}
+
+nav{
+    text-align: center;
 
 }
 
 nav li{
-    
+    padding: 0.2em;
+    margin: 00.2em;
     display: block;
+    background-color: white;
     
+}
+
+nav li:hover{
     
+    background-color: pink;
+    color: white;
+    border: 1px white solid;
 }
 
 li{
@@ -60,9 +74,10 @@ nav a{
 }
 
 .portfolio{
-    
+    text-align: center;
     background: white;
-    width: 100vw;
+    padding: 0.5em 0.5em;
+    
 }
 
 img{
@@ -73,6 +88,13 @@ img{
 .me{
     border-radius: 50%;
     
+    height: 300px;
+    border: white 2px solid;
+     box-shadow: 0 5px rgba(93, 64, 55, 0.4), 0 10px rgba(93, 64, 55, 0.3), /*cool box shadow from https://alligator.io/css/box-shadow-examples/ */
+              0 15px rgba(93, 64, 55, 0.2), 0 20px rgba(93, 64, 55, 0.1),
+              0 25px rgba(93, 64, 55, 0.05),
+              -5px 5px 40px rgba(100, 0, 0, 0.4);
+
 }
 
 .about{
@@ -83,3 +105,16 @@ img{
 
     font-weight: bold;
 }
+
+.main{
+
+    margin: 0 auto;
+}
+
+
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
