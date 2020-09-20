@@ -111,7 +111,9 @@ img{
 }
 
 .about{
-    background-color: #fafafa
+    background-color: #fafafa;
+    padding-top: 40px;
+
 }
 
 .bold{
@@ -188,6 +190,8 @@ img{
     padding: 0 2em;
 
 }
+
+
 /* Media Queries */
 
 @media (min-width: 768px){
