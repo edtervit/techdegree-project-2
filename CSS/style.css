@@ -18,7 +18,7 @@ a{
 }
 
 p{
-    font-size: 1.1em;
+    font-size: 1.3em;
 }
 
 body{
@@ -39,6 +39,11 @@ h1{
 h2{
     text-transform: uppercase;
     margin: 0 0;
+    font-size: 2em;
+    padding-bottom: 0.5em;
+}
+
+h3{
     font-size: 1.5em;
 }
 
@@ -228,7 +233,7 @@ img{
   
     .item p{
         padding:0em 5%;
-        font-size: 1.5em;
+        font-size: 1.4em;
     }  
 
     h2{
@@ -328,7 +333,7 @@ img{
         height: 180px;
     }
     .home{
-        margin-bottom: 50px;
+        margin-bottom: 35px;
     }
 }
 
